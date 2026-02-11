@@ -55,19 +55,19 @@
           </h1>
 
           <p class="hero__lead">
-            Espacio estudiantil para calculo de notas finales.
-            Revisa tu <strong>nota final aqui</strong> para el examen de recuperación y recursos para tu semestre.
+            ¿Quieres salir de dudas rápido? Ingresa tu <strong>promedio (Y)</strong> y te mostramos la
+            <strong>nota mínima (X)</strong> que necesitas para el examen de recuperación.
           </p>
 
           <div class="hero__cta">
-            <a class="btn btn--primary" href="#calculadora">Usar calculadora</a>
+            <a class="btn btn--primary" href="#calculadora">Calcular ahora</a>
             <a class="btn btn--ghost" href="#tabla">Ver tabla</a>
           </div>
 
           <div class="hero__stats">
             <div class="stat">
               <span class="stat__num" data-count="100">0</span>
-              <span class="stat__label">% claridad</span>
+              <span class="stat__label">claro y rápido</span>
             </div>
             <div class="stat">
               <span class="stat__num" data-count="2">0</span>
@@ -84,7 +84,7 @@
           <article class="card glow">
             <h3>¿Cómo se calcula?</h3>
             <p>
-              Según la guía, la nota mínima del examen de recuperación se estima con:
+              Usamos la fórmula de referencia para estimar la nota mínima del examen de recuperación:
             </p>
             <div class="formula" aria-label="Fórmula de cálculo">
               <span class="mono">X = (7 − 0.4·Y) / 0.6</span>
@@ -95,9 +95,10 @@
           </article>
 
           <article class="card">
-            <h3>Consejo rápido</h3>
+            <h3>Tip rápido</h3>
             <p>
-              Si tu promedio baja, la nota mínima de recuperación sube. Usa la calculadora para ver tu caso.
+              Si tu promedio baja, normalmente la nota mínima de recuperación sube.
+              Mejor revisa tu caso aquí y te ahorras el cálculo a mano.
             </p>
             <div class="tip">
               <span class="dot"></span>
@@ -116,7 +117,7 @@
         <div class="section__head reveal">
           <h2>Calculadora de recuperación</h2>
           <p class="muted">
-            Ingresa tu <strong>promedio (Y)</strong> y calcula la <strong>nota mínima (X)</strong> para aprobar.
+            Coloca tu <strong>promedio (Y)</strong> y te devolvemos la <strong>nota mínima (X)</strong>.
           </p>
         </div>
 
@@ -142,25 +143,25 @@
               </div>
               <div class="result__value" id="resultadoValor">—</div>
               <div class="result__note muted" id="resultadoNota">
-                Ingresa un promedio para ver el resultado.
+                Escribe tu promedio para ver el resultado.
               </div>
             </div>
 
             <div class="actions">
               <button class="btn btn--ghost" id="btnCSV">Descargar tabla (CSV)</button>
-              <button class="btn btn--ghost" id="btnReset">Reiniciar</button>
+              <button class="btn btn--ghost" id="btnReset">Limpiar</button>
             </div>
           </div>
 
           <div class="panel panel--img reveal" id="tabla">
             <div class="panel__img-head">
-              <h3>Tabla oficial (referencia)</h3>
-              <p class="muted small">Imagen proporcionada por FUERZA (CQ)².</p>
+              <h3>Tabla de referencia</h3>
+              <p class="muted small">Imagen compartida por FUERZA (CQ)² (FCQ - UG).</p>
             </div>
             <figure class="img-frame">
               <img src="assets/tabla_notas_minimas.jpeg" alt="Tabla de notas mínimas de examen de recuperación" loading="lazy"/>
               <figcaption class="small muted">
-                Si necesitas ampliar, usa el zoom del navegador (Ctrl + / Ctrl −).
+                Si la ves pequeña, usa el zoom del navegador (Ctrl + / Ctrl −).
               </figcaption>
             </figure>
           </div>
@@ -168,9 +169,9 @@
 
         <div class="table-preview reveal" aria-label="Vista dinámica de valores">
           <div class="table-preview__head">
-            <h3>Vista dinámica</h3>
+            <h3>Tabla dinámica</h3>
             <p class="muted small">
-              Genera una tabla alrededor de tu promedio en pasos de 0.1.
+              Te armamos una mini-tabla alrededor de tu promedio (pasos de 0.1).
             </p>
           </div>
 
@@ -202,7 +203,7 @@
           </div>
 
           <p class="small muted">
-            *Los valores se redondean a 2 decimales para lectura práctica.
+            *Valores redondeados a 2 decimales para que sea fácil de leer.
           </p>
         </div>
       </div>
@@ -213,23 +214,29 @@
       <div class="container">
         <div class="section__head reveal">
           <h2>Recursos del movimiento</h2>
-          <p class="muted">Bloques listos para ampliar con tus actividades (tutorías, campeonatos, recorridos, etc.).</p>
+          <p class="muted">
+            Aquí vamos reuniendo info útil para el semestre: tutorías, actividades, avisos y enlaces importantes.
+          </p>
         </div>
 
         <div class="cards-3">
           <article class="card reveal">
             <h3>Apoyo académico</h3>
-            <p>Publica cronogramas de tutorías, enlaces y recordatorios. Puedes agregar Google Forms, Drive o WhatsApp.</p>
+            <p>
+              Tutorías, repasos y material para estudiar mejor. Si hay formularios de inscripción o links, los colocamos aquí.
+            </p>
             <ul class="checklist">
               <li>Horarios por semestre</li>
-              <li>Materiales y resúmenes</li>
+              <li>Material de apoyo</li>
               <li>Sesiones de preguntas</li>
             </ul>
           </article>
 
           <article class="card reveal">
             <h3>Comunidad</h3>
-            <p>Espacios para integración: ajedrez, ecuavóley, relámpago y más.</p>
+            <p>
+              Actividades para integrarnos (ajedrez, ecuavóley, relámpago y más). Te avisamos fechas y cómo inscribirte.
+            </p>
             <ul class="checklist">
               <li>Inscripciones</li>
               <li>Reglamentos</li>
@@ -238,8 +245,10 @@
           </article>
 
           <article class="card reveal">
-            <h3>Info rápida</h3>
-            <p>Publicaciones cortas: comunicados, links útiles y avisos importantes.</p>
+            <h3>Info al día</h3>
+            <p>
+              Comunicados cortos y directos: cambios, recordatorios y links que te ahorran tiempo.
+            </p>
             <ul class="checklist">
               <li>Calendario</li>
               <li>Trámites</li>
@@ -255,17 +264,20 @@
       <div class="container">
         <div class="contact reveal">
           <div>
-            <h2>Contacto</h2>
-            <p class="muted">Personaliza estos botones con tus enlaces reales.</p>
+            <h2>Hablemos</h2>
+            <p class="muted">
+              ¿Tienes dudas, ideas o quieres enterarte de todo? Síguenos en Instagram y TikTok,
+              y únete a nuestra comunidad de WhatsApp para avisos y actividades.
+            </p>
 
             <div class="contact__buttons">
               <a class="btn btn--primary" id="btnInstagram" href="#" target="_blank" rel="noopener">Instagram</a>
-              <a class="btn btn--ghost" id="btnWhatsApp" href="#" target="_blank" rel="noopener">WhatsApp</a>
-              <a class="btn btn--ghost" id="btnCorreo" href="#" target="_blank" rel="noopener">Correo</a>
+              <a class="btn btn--ghost" id="btnWhatsApp" href="#" target="_blank" rel="noopener">Comunidad WhatsApp</a>
+              <a class="btn btn--ghost" id="btnCorreo" href="#" target="_blank" rel="noopener">TikTok</a>
             </div>
 
             <p class="small muted">
-              Nota: en esta demo, los enlaces están como “#”. Cámbialos en <span class="mono">app.js</span> (sección “LINKS”).
+              *Los botones ya están listos: solo asegúrate de pegar tus enlaces en <span class="mono">app.js</span> (sección <strong>LINKS</strong>).
             </p>
           </div>
 
@@ -283,12 +295,12 @@
           <img src="assets/logo_fcq_ug.png" alt="Logo FCQ" />
           <div>
             <strong>FUERZA (CQ)²</strong>
-            <div class="small muted">FCQ • Universidad de Guayaquil</div>
+            <div class="small muted">Facultad de Ciencias Químicas • Universidad de Guayaquil</div>
           </div>
         </div>
 
         <div class="footer__meta small muted">
-          <div>Hecho para GitHub Pages (HTML/CSS/JS).</div>
+          <div>Hecho por estudiantes para estudiantes.</div>
           <div>© <span id="year"></span> FUERZA (CQ)²</div>
         </div>
       </div>
