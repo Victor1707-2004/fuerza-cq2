@@ -1,10 +1,10 @@
 // ===== FUERZA (CQ)² - app.js =====
 
-// --- LINKS (edita aquí con tus enlaces reales) ---
+// --- LINKS 
 const LINKS = {
-  instagram: "#",          // Ej: "https://www.instagram.com/fuerza.ciencias.quimicas/"
-  whatsapp: "#",           // Ej: "https://wa.me/593XXXXXXXXX"
-  correo: "#",             // Ej: "mailto:fuerza.cq2@ug.edu.ec"
+  instagram: "https://www.instagram.com/fuerzaccqq/",
+  whatsapp: "https://whatsapp.com/channel/0029VaVzdrW89ind1cM7Dy44",
+  correo: "https://www.tiktok.com/@fuerzacq2",
 };
 
 // --- DOM refs ---
